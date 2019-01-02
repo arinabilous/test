@@ -1,0 +1,120 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+hr {
+    border: none;
+    /* Firefox */
+    color: #fac012;
+    background-color: #fac012;
+    /*  Firefox  Opera */
+    height: 3px;
+    width: 13%;
+    margin-bottom: 10%;
+    margin-left: 43%;
+}
+
+
+/*HEADDER BEGIN*/
+
+header {
+    background: #fff;
+}
+
+.logo {
+    width: 111px;
+    height: auto;
+    margin-right: 15%;
+}
+
+.navbar-nav a:link,
+a:visited {
+    font-size: 14px;
+    margin: 8px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-nav a:hover,
+a:active {
+    color: #fac012;
+}
+
+.bg-batton-menu .bg-batton-menu:hover {
+    background: #d1cfca;
+    ;
+}
+
+.bg-batton-menu:hover {
+    background: #fac012;
+    ;
+}
+
+
+/*HEADDER END*/
+
+
+/*ekran1 BEGIN*/
+
+.carousel slide {
+    position: relative;
+}
+
+.img-carousel {
+    min-height: 10rem;
+}
+
+.text-block {
+    position: absolute;
+    top: 30%;
+    right: 35%;
+    color: white;
+}
+
+.carousel-caption h1 {
+    font-size: 26px;
+    margin-bottom: 25%;
+}
+
+.carousel-caption h4 {
+    font-size: 24px;
+    margin-bottom: 17%;
+}
+
+.btn-ekran1 {
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 12px;
+    padding: 6px 30px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    text-align: center;
+    max-height: 50px;
+    font-weight: bold;
+    margin-bottom: 11%;
+}
+
+.btn-ekran1:hover,
+.control-slide:hover {
+    background: #fac012;
+}
+
+.control-slide {
+    background: #0c2e3b;
+    width: 20px;
+    height: 50px;
+    margin-top: 15%;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.6s ease;
+}
+
+
+/*ekran1 END*/

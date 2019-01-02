@@ -1,0 +1,1104 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+}
+
+hr {
+    border: none;
+    /* Firefox */
+    color: #fac012;
+    background-color: #fac012;
+    /*  Firefox  Opera */
+    height: 3px;
+    width: 13%;
+    margin-bottom: 10%;
+    margin-left: 43%;
+}
+
+.style-title {
+    color: #0c2e3b;
+    margin: 3% 0;
+}
+
+#TOP {
+    display: none;
+    position: fixed;
+    bottom: 80px;
+    right: 50px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #fac012;
+    color: white;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 12px;
+}
+
+#TOP:hover {
+    background-color: #555;
+    color: #fac012;
+}
+
+
+/*HEADDER BEGIN*/
+
+header {
+    background: #fff;
+}
+
+.logo {
+    width: 111px;
+    height: 56;
+    margin-right: 15%;
+}
+
+.navbar-nav a:link,
+a:visited {
+    font-size: 14px;
+    margin: 8px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-nav a:hover,
+a:active {
+    color: #fac012;
+}
+
+.bg-batton-menu .bg-batton-menu:hover {
+    background: #d1cfca;
+    ;
+}
+
+.bg-batton-menu:hover {
+    background: #fac012;
+    ;
+}
+
+
+/*HEADDER END*/
+
+
+/*ekran1 BEGIN*/
+
+.carousel slide {
+    position: relative;
+}
+
+.img-carousel {
+    min-height: 10rem;
+}
+
+.text-block {
+    position: absolute;
+    top: 30%;
+    right: 35%;
+    color: white;
+}
+
+.carousel-caption h1 {
+    font-size: 26px;
+    margin-bottom: 25%;
+}
+
+.carousel-caption h4 {
+    font-size: 24px;
+    margin-bottom: 17%;
+}
+
+.carousel-caption a {
+    text-decoration: none;
+}
+
+.BD {
+    margin-bottom: 7%;
+}
+
+.btn-ekran1 {
+    background: rgba(0, 0, 0, 0.1);
+    color: white;
+    font-size: 12px;
+    padding: 6px 30px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    text-align: center;
+    max-height: 50px;
+    font-weight: bold;
+    margin-bottom: 11%;
+}
+
+.btn-ekran1:hover,
+.control-slide:hover {
+    background: #fac012;
+}
+
+.control-slide {
+    background: #0c2e3b;
+    width: 20px;
+    height: 50px;
+    margin-top: 15%;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.6s ease;
+}
+
+
+/*ekran1 END*/
+
+
+/*ekran2 BEGIN*/
+
+.bg-button-e2 {
+    background: #0c2e3b;
+    color: white;
+    font-size: 14px;
+    padding: 3% 8%;
+    margin-top: 5%;
+}
+
+.style-h6 {
+    color: #fac012;
+}
+
+.style-p,
+.style-title-2 {
+    color: #0c2e3b;
+    font-size: 14px;
+}
+
+.card-footer {
+    border: none;
+    background: white;
+}
+
+.bg-button-e2:hover {
+    color: #fac012;
+}
+
+.card-auto {
+    max-width: 18rem;
+    max-height: auto;
+    margin: 0;
+    padding: 0
+}
+
+.container2 {
+    position: relative;
+    background: #fac012;
+    max-width: 18rem;
+    max-height: auto;
+    padding: 0;
+}
+
+.image2 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    border-radius: 0;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.container2:hover .image2 {
+    opacity: 0.2;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.container2:hover .middle {
+    opacity: 1;
+}
+
+.block1 {
+    background: rgb(255, 255, 255);
+    padding: 0;
+    position: relative;
+    color: rgb(207, 41, 41);
+}
+
+.block1::after {
+    content: '';
+    position: absolute;
+    /* Абсолютное позиционирование */
+    left: -40px;
+    bottom: 35%;
+    /* Положение треугольника */
+    border: 20px solid transparent;
+    /* Прозрачные границы */
+    border-right: 20px solid rgb(255, 255, 255);
+    /* Добавляем треугольник */
+    z-index: 1000;
+}
+
+.block2 {
+    background: rgb(255, 255, 255);
+    padding: 0;
+    position: relative;
+}
+
+.block2::after {
+    content: '';
+    position: absolute;
+    /* Абсолютное позиционирование */
+    left: 45%;
+    top: -40px;
+    /* Положение треугольника */
+    border: 20px solid transparent;
+    /* Прозрачные границы */
+    border-bottom: 20px solid rgb(255, 255, 255);
+    /* Добавляем треугольник */
+    z-index: 1000;
+}
+
+.block3 {
+    background: rgb(254, 255, 255);
+    padding: 0;
+    position: relative;
+}
+
+.block3::after {
+    content: '';
+    position: absolute;
+    /* Абсолютное позиционирование */
+    left: 100%;
+    bottom: 35%;
+    /* Положение треугольника */
+    border: 20px solid transparent;
+    /* Прозрачные границы */
+    border-left: 20px solid rgb(255, 255, 255);
+    /* Добавляем треугольник */
+    z-index: 1000;
+}
+
+.block4 {
+    background: rgb(253, 255, 255);
+    padding: 0;
+    position: relative;
+}
+
+.block4::after {
+    content: '';
+    position: absolute;
+    /* Абсолютное позиционирование */
+    left: 45%;
+    bottom: -40px;
+    /* Положение треугольника */
+    border: 20px solid transparent;
+    /* Прозрачные границы */
+    border-top: 20px solid rgb(253, 253, 253);
+    /* Добавляем треугольник */
+    z-index: 1000;
+}
+
+.margin-text1 {
+    margin: 3% 2% 5% 5%;
+}
+
+.margin-text2 {
+    margin: 0% 2% 5% 5%;
+    padding-top: 2%;
+}
+
+
+/*ekran2 END*/
+
+
+/*ekran3 BEGIN*/
+
+.padding-3 {
+    margin-top: 5%;
+    padding: 0;
+}
+
+.minheight-3 {
+    min-height: 10rem;
+}
+
+.style-title-3 {
+    color: #ffffff;
+    font-size: 14px;
+    margin: 5% auto;
+}
+
+.colortext {
+    color: #fac012;
+}
+
+.icon1-3 {
+    width: 28%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+.icon2-3 {
+    width: 24%;
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+
+.ekran3 {
+    margin-top: 3%;
+    padding-left: 9%;
+}
+
+.ekran31 {
+    margin-top: 3%;
+    padding-right: 9%;
+}
+
+
+/*ekran3 END*/
+
+
+/*ekran4 BEGIN*/
+
+.masyv-h5 {
+    color: #fac012;
+    margin: 3% 0;
+}
+
+.masyv-a {
+    margin: 2% 0;
+}
+
+.masyv a:link,
+a:visited {
+    margin-left: 25%;
+    color: #0c2e3b;
+}
+
+.img-4 {
+    width: 100%;
+}
+
+
+/*radio group */
+
+.container-radio {
+    display: block;
+    position: relative;
+    padding-left: 28px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid grey;
+    border-radius: 28px;
+    width: 75px;
+}
+
+.radio-margin {
+    margin: 5px 0;
+}
+
+.radio-5-padding {
+    padding: 5px 1em;
+}
+
+.container-radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid grey;
+    top: 5px;
+    left: 8px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+}
+
+.container:hover input~.checkmark {
+    background-color: yellow;
+}
+
+.container-radio input:checked~.checkmark {
+    background-color: #ffffff;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container-radio input:checked~.checkmark:after {
+    display: block;
+}
+
+.container-radio .checkmark:after {
+    top: -1px;
+    left: -1px;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: #fac012;
+}
+
+
+/* Toggled State */
+
+
+/*radio group end*/
+
+
+/*Toggle Switch */
+
+.container-switch {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid grey;
+    border-radius: 28px;
+    width: 90px;
+}
+
+input.switch:empty {
+    margin-left: -2999px;
+}
+
+input.switch:empty~label {
+    position: relative;
+    float: left;
+    line-height: 1em;
+    text-indent: 1em;
+    margin: 0.2em 0;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+input.switch:empty~label:before,
+input.switch:empty~label:after {
+    position: absolute;
+    display: block;
+    top: 0.2em;
+    bottom: 0;
+    left: 40px;
+    content: ' ';
+    width: 24px;
+    height: 11px;
+    background-color: #fff;
+    border-radius: 34px;
+    -webkit-transform: translateX(15px);
+    -ms-transform: translateX(15px);
+    transform: translateX(15px);
+    border: 1px solid grey;
+}
+
+input.switch:empty~label:after {
+    width: 15px;
+    height: 15px;
+    top: 0.1em;
+    bottom: 0.1em;
+    margin-left: -0.2em;
+    background-color: #fff;
+    border-radius: 100%;
+    border: 1px solid grey;
+}
+
+input.switch:checked~label:before {
+    background-color: #fff;
+    border: 1px solid grey;
+}
+
+input.switch:checked~label:after {
+    margin-left: 0.8em;
+    background-color: #fac012;
+    border: none;
+    width: 15px;
+    height: 15px;
+}
+
+
+/*Toggle Switch end */
+
+
+/*button-group  */
+
+.btn-group {
+    display: block;
+}
+
+.btn-group button {
+    background-color: #fff;
+    /* Green background */
+    border: 1px solid grey;
+    /* Green border */
+    color: black;
+    width: 18px;
+    height: 20px;
+    padding: 1px;
+    margin: 1px;
+    font-size: 12px;
+    font-weight: bold;
+    /* Some padding */
+    cursor: pointer;
+    /* Float the buttons side by side */
+}
+
+button:focus {
+    border: none;
+    outline: 1px solid #fac012;
+}
+
+
+/*button-group end */
+
+
+/* The Modal (background) */
+
+.button-position {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.bg-button-e4 {
+    background: #0c2e3b;
+    color: white;
+    font-size: 14px;
+    padding: 10px 15px;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 100;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    padding-top: 80px;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+.modal input {
+    width: 280px;
+    height: 30px;
+    margin: 2% 0;
+}
+
+.modal label {
+    float: right;
+    font-size: 14px;
+    margin: 6% 0;
+    color: #0c2e3b;
+}
+
+.modal button {
+    margin: 10% 20% 20% 20%;
+}
+
+.modal h6 {
+    margin: 5% 0;
+    font-size: 14px;
+    color: #fac012;
+    float: left;
+}
+
+.modal h5 {
+    margin: 5% 0;
+    font-size: 20px;
+}
+
+
+/* Modal Content */
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0px 20px;
+    border: 1px solid #888;
+    width: 45%;
+}
+
+.modal-content-md {
+    background-color: #fefefe;
+    margin: 1% auto;
+    padding: 0 10%;
+    border: 1px solid #888;
+    width: 90%;
+}
+
+.modal-content-md input {
+    width: 200px;
+    height: 30px;
+    margin: 2% 0;
+}
+
+
+/* The Close Button */
+
+.close,
+.closemd {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 1%;
+    padding: 0;
+}
+
+.close,
+.closemd:hover,
+.close,
+.closemd:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* The Modal end */
+
+
+/* table */
+
+th,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-spacing: 15px;
+}
+
+
+/*table end */
+
+.plan-img {
+    width: 100%;
+    margin: 5% auto;
+}
+
+.style-plan-img {
+    width: 90%;
+    margin: 5% auto;
+    transition: transform .2s;
+}
+
+.carousel-img {
+    width: 80%;
+    margin: 2% auto;
+    padding: 10%;
+    transition: transform .2s;
+}
+
+.transform:hover {
+    transform: scale(1.4);
+}
+
+.control-slide-plan {
+    background: #fac012;
+    width: 25px;
+    height: 50px;
+    margin-top: 35%;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.6s ease;
+}
+
+.img-magnifier-container {
+    position: relative;
+}
+
+.img-magnifier-glass {
+    position: absolute;
+    border: 3px solid #000;
+    border-radius: 50%;
+    cursor: none;
+    /*Set the size of the magnifier glass:*/
+    width: 100px;
+    height: 100px;
+}
+
+.style-title-plan {
+    margin-bottom: 4%;
+}
+
+.plan h5 {
+    margin-top: 4%;
+}
+
+
+/*ekran4 END*/
+
+
+/*ekran5 BEGIN*/
+
+.ekran5 {
+    padding: 0;
+    margin: 2% auto;
+}
+
+.ekran5 .card {
+    width: 100%;
+    max-width: 300px;
+}
+
+.ekran5 .card-body {
+    width: 100%;
+    height: 110px;
+}
+
+.icon {
+    float: right;
+    width: 35%;
+    padding: 4%;
+}
+
+.icon3 {
+    float: right;
+    width: 30%;
+    padding: 4%;
+}
+
+.card-img-bg5 {
+    width: 100%;
+    height: 110px;
+    padding: 0;
+}
+
+.min-height-5 {
+    min-height: 200px;
+}
+
+.ekran5-lg {
+    padding: 2% 0;
+    margin: 2% auto;
+}
+
+.ekran5-lg .card {
+    width: 270px;
+    height: 110px;
+}
+
+.ekran5-lg .card-body {
+    padding: 1% 0 2% 0;
+}
+
+.ekran5-lg .icon {
+    float: right;
+    width: 50%;
+    margin: 1% 0;
+}
+
+.ekran5-lg .icon3 {
+    float: right;
+    width: 45%;
+    padding: 3%;
+}
+
+.bg-none {
+    background: none;
+}
+
+.ekran5-lg-1 {
+    font-size: 20px;
+    margin: 10%;
+}
+
+.ekran5-lg-2 {
+    font-size: 16px;
+    margin-top: 11%;
+}
+
+.ekran5-lg p {
+    margin-top: 10%;
+    padding: 3%;
+    font-size: 12px;
+}
+
+
+/*ekran5 END*/
+
+
+/*ekran6 BEGIN*/
+
+.ekran-6 .text-under {
+    margin-top: 5%;
+}
+
+.ekran-6 {
+    padding: 0;
+    margin-bottom: 5%;
+}
+
+.ekran-6 .card {
+    border: 1px solid #fafafa;
+    width: 100%;
+    max-height: 200px;
+    min-width: 220px;
+    margin: 1%;
+    padding: 0;
+}
+
+.ekran-6 .card-body {
+    padding: 0;
+    margin: 0;
+}
+
+.ekran-6 h5 {
+    color: #272727;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.ekran-6 p {
+    color: #afafaf;
+    font-size: 14px;
+    padding: 5px;
+    line-height: 1.4;
+    margin: 0;
+}
+
+.ekran-6 i {
+    width: 50px;
+    height: 50px;
+    margin-top: 55px;
+    padding: 10px;
+    color: #fac012;
+}
+
+.ekran-6 .card:hover {
+    border: 1px solid #fac012;
+}
+
+.text-under {
+    display: block;
+}
+
+.icon-6:hover {
+    background-color: #fac012;
+    color: #fff;
+}
+
+.bg-icon:hover {
+    color: #fff;
+    background-color: #fac012;
+}
+
+
+/*ekran6 END*/
+
+
+/*ekran7 BEGIN*/
+
+.map1 {
+    width: 100%;
+    height: 180px;
+    background: white;
+    margin-top: 5%;
+    border: 0;
+}
+
+.map {
+    margin: 0;
+    padding: 0;
+}
+
+.map2 {
+    width: 100%;
+    height: 400px;
+    background: white;
+    margin-top: 4%;
+    position: absolute;
+    z-index: 0;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#contactform {
+    position: relative;
+    z-index: 1;
+    width: 420px;
+    margin: 6% 14% 2% 18%;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    height: auto;
+    opacity: 1;
+    color: #0c2e3b;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+#contactform form .form-control {
+    border-radius: 0;
+}
+
+#contactform form {
+    margin: 3% auto;
+}
+
+.vl {
+    border-right: 3px solid #fac012;
+    height: 30px;
+    position: absolute;
+    top: 6%;
+}
+
+#contactform form h5 {
+    margin-left: 5%;
+    margin-bottom: 8%;
+    font-size: 22px;
+}
+
+#contactform form value {
+    color: black;
+}
+
+select:required:invalid {
+    color: gray;
+}
+
+option[value=""][disabled] {
+    display: none;
+}
+
+option {
+    color: black;
+}
+
+#contactform form button {
+    padding: 2% 4%;
+    color: #fafafa;
+    background: #0c2e3b;
+    margin-bottom: 5%;
+}
+
+#contactform form button:hover {
+    padding: 2% 4%;
+    color: #fac012;
+    background: #0c2e3b;
+}
+
+
+/*ekran7 END*/
+
+
+/*footer BEGIN*/
+
+.footer-bg {
+    background-color: #272727;
+    margin: 0;
+    padding: 0;
+}
+
+footer .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+footer .card-group {
+    margin: 3% auto;
+}
+
+footer hr {
+    width: 30%;
+    border: none;
+    /* Firefox */
+    color: #fac012;
+    background-color: #fac012;
+    /*  Firefox  Opera */
+    height: 2px;
+    margin: 7% 0;
+}
+
+.footer2-hr {
+    width: 100%;
+    border: none;
+    /* Firefox */
+    color: #ffffff;
+    background-color: #ffffff;
+    /*  Firefox  Opera */
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+footer i {
+    color: #fac012;
+}
+
+footer .logo-f {
+    margin-top: 9%;
+    margin-left: 8%;
+    width: 111px;
+    height: 56;
+}
+
+.footer-bg a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-bg a:hover,
+a:active {
+    color: #fac012;
+}
+
+.footer-bg span {
+    margin-left: 8%;
+}
+
+.footer-bg p {
+    margin-top: 2%;
+}
+
+.span-f {
+    margin-left: 40%;
+}
+
+.p-2 {
+    font-size: 12px;
+    margin: 10% 0 4% 0;
+}
+
+
+/*footer END*/
